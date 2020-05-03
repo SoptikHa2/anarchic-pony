@@ -1,0 +1,42 @@
+3d2
+< broadcom-wl
+9,10d7
+< dhclient
+< dhcpcd
+14,15d10
+< dnsmasq
+< dnsutils
+18d12
+< ethtool
+22d15
+< gnu-netcat
+31d23
+< iwd
+33d24
+< lftp
+45d35
+< netctl
+51,53d40
+< openconnect
+< openssh
+< openvpn
+57,59d43
+< ppp
+< pptpclient
+< refind-efi
+62d45
+< rsync
+67d49
+< tcpdump
+71d52
+< vi
+75,78d55
+< wireless-regdb
+< wireless_tools
+< wpa_supplicant
+< wvdial
+80a58,61
+> awk
+> sed
+> util-linux
+> coreutils

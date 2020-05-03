@@ -14,3 +14,6 @@ Apply patch file:
 ```
 patch <old> <patch>
 ```
+
+## Build
+Call `build.sh` as root. That will apply patches to the iso file.
