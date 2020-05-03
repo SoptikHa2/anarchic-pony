@@ -1,4 +1,4 @@
 23a24,26
 > 
 > chmod +x "/root/init-script.sh"
-> #echo "/root/init-script.sh" >> "/root/.zshrc"
+> echo "/root/init-script.sh" >> "/root/.zshrc"
