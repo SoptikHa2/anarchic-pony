@@ -36,7 +36,7 @@
 < wpa_supplicant
 < wvdial
 80a58,61
-> awk
+> gawk
 > sed
 > util-linux
 > coreutils
