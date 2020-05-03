@@ -17,3 +17,5 @@ patch <old> <patch>
 
 ## Build
 Call `build.sh` as root. That will apply patches to the iso file.
+
+Then build the iso file. See [archwiki](https://wiki.archlinux.org/index.php/Archiso#Build_the_ISO).
