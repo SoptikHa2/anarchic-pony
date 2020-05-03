@@ -25,3 +25,5 @@ patch releng/airootfs/root/customize_airootfs.sh customize_airootfs.sh.patch
 # Copy important files
 cp ponyos.iso releng/airootfs/root/
 cp patch-bootloader.awk releng/airootfs/root/
+cp init-script.sh releng/airootfs/root/
+cp skull.txt releng/airootfs/root/

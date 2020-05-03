@@ -1,5 +1,13 @@
-#!/bin/sh
+#!/bin/zsh
 # This is added to airootfs
+
+debug() { printf "$0[DEBUG]: %s\n" "$*" >&2 }
+green() { echo -e '\e[32m' }
+normal() { echo -e '\e[39m' }
+red() { echo -e '\e[91m' }
+
+red
+cat skull.txt
 
 # Mount all filesystems until we found one with /boot partition
 for partition in /dev/disk/by-id/*; do
